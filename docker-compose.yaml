@@ -1,0 +1,13 @@
+version: '20.10.11'
+
+services:
+ db:
+    container_name: dio
+    image: postgres
+    restart: always
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: Devbragaee-inter
+      POSTGRES_DB: inter
