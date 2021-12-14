@@ -10,12 +10,21 @@
 ---
    ## Dependencias locais do projeto
 
-
+     @types/cors
+    cors
+    crypto-js
     eslint
     express
     express-async-errors
+    express-jwt
+    js-base64
+    jsonwebtoken
+    nodemon
     pg
+    reflect-metadata
     typeorm
+
+    
    ## Dependencias em modo de desenvolvimento -D
 
      @types/crypto-js
@@ -36,7 +45,8 @@
 
 
 
-  ## recomendo muito dar uma olhada nesse tutorial 
+  # recomendo muito consultar  esse tutorial 
+  
 Criando setup Ininical - Referencias.
 https://dev.to/melquisedecfelipe/configurando-eslint-no-node-com-express-e-typescript-58p9
 
@@ -46,12 +56,12 @@ https://dev.to/melquisedecfelipe/configurando-eslint-no-node-com-express-e-types
 
    // requisitos funcionais 
 - Usuário
- [ ] Cadastrar novo usuário
- [ ] Efeturar login e retornar token de acesso
+ Cadastrar novo usuário
+  Efeturar login e retornar token de acesso
 
 - PIX
- [ ] Efetuar solicitação de PIX
- [ ] Receber PIX
+ Efetuar solicitação de PIX
+ Receber PIX
  
  Regras: 
   - quando receber um pix, salvar na tabela de transação
