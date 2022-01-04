@@ -5,6 +5,7 @@
 - Insomnia ou Postman
 - Postgree - para o db
 - Docker 
+- link do Projeto FrontEnd: https://github.com/DevBragaee/frontEnd_bancoInter
 
 
 ---
